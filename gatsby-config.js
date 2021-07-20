@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Erik Moxley Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Erik Moxley`,
+      summary: `who is an aspiring web/software developer and beyond.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Messing around with Gatsby and Netlify CMS`,
+    siteUrl: `https://moxleyblog.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `moxleydev`,
     },
   },
   plugins: [
@@ -112,8 +112,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Erik Moxley Blog`,
+        short_name: `ErikMoxley`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
